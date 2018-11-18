@@ -65,6 +65,7 @@ class SanityTest():
         driver.find_element_by_xpath("//div[3]/a/span").click()
         driver.find_element_by_xpath("//div[3]/div/ul/li[3]").click()
 
+
         # Submit selected query
         driver.find_element_by_xpath("//form/a").click()
 
