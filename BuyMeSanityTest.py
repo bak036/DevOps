@@ -67,6 +67,7 @@ class SanityTest():
 
         # Submit selected query
         driver.find_element_by_xpath("//form/a").click()
+
         time.sleep(2)
 
         # CHOOSE CLARO REST
