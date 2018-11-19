@@ -14,6 +14,7 @@ class SanityTest():
 
     def RegistrationScreen(self,driver,username,password,email):
 
+
         #LOGIN/REGISTRATION PANEL
         driver.find_element_by_css_selector(".seperator-link").click()
         driver.find_element_by_css_selector(".text-btn").click()
