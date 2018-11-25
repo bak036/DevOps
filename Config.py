@@ -6,7 +6,7 @@ class GetURL(unittest.TestCase):
     def set_up(self):
         self.driver = webdriver.Chrome(executable_path='C:/automation/drivers/chromedriver')
         self.driver.maximize_window()
-        self.driver.implicitly_wait(20)1
+        self.driver.implicitly_wait(20)
 
 
     def get_url(self):
